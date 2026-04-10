@@ -12,6 +12,9 @@ void search(){
 void display(){
 
 }
+void delet(){
+    
+}
 
 int main(){
     
