@@ -10,7 +10,7 @@ cin>>number;
 
 for (int i=0;i<15;i++){
 	if (number==space[i]){
-		cout<<"number found at "<<i;
+		cout<<"number found at index: "<<i;
 		return 0;
 	}
 }
