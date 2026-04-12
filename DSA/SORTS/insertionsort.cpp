@@ -9,7 +9,7 @@ int main() {
         int hold = arr[i];
         int j = i - 1;
 
-        while (j >= 0 && arr[j] < hold) {
+        while (j >= 0 && arr[j] > hold) {
             arr[j + 1] = arr[j];
             j--;
         }
